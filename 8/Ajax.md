@@ -110,13 +110,9 @@ callback(response){
 }
 ```
 
-
-
 ### Response
 
 fetch를 통해 요청하고 서버로 부터 응답을 받으면 .then을 통해 함수의 인자에 담기게 된다. 이 값은 Response객체로서 여러가지 정보들을 담고 있다.
-
-
 
 - response.status - HTTP 상태 코드 (200)
 
@@ -130,15 +126,9 @@ fetch를 통해 요청하고 서버로 부터 응답을 받으면 .then을 통�
 
 - response.formData() - 응답을 FormData 객체 형태로 변환한다.
 
-
-
 > 응답 자료 형태 반환 메서드는 한번의 요청에 한번만 사용가능하다.
 > 
 > 만약 text()를 사용해서 응답을 얻었다면 본문의 콘텐츠가 모두 처리 된 상태여서 json() 써줘도 동작하지 않는다.
-
-
-
-
 
 #### Async / Await 를 이용하기
 
